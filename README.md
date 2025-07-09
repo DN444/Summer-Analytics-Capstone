@@ -8,20 +8,27 @@ pricing engine for 14 parking spaces using real-time data streams, basic economi
 and ML models built from scratch, using only numpy, pandas libraries.
 Location Information:
 
-• Latitude and Longitude of each parking space (to calculate proximity to competi-
-tors).
+• Latitude and Longitude of each parking space (to calculate proximity to competitors).
 
 Parking Lot Features:
+
 • Capacity (maximum number of vehicles that can be parked)
+
 • Occupancy (current number of parked vehicles)
+
 • Queue length (vehicles waiting for entry)
 
 
 Vehicle Information:
+
 • Type of incoming vehicle: car, bike, or truck
+
 Environmental Conditions:
+
 • Nearby traffic congestion level
+
 • Special day indicator (e.g., holidays, events)
+
 Each time step reflects the state of each parking lot, and demand will fluctuate throughout
 the day based on these features.
 
